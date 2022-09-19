@@ -1,0 +1,27 @@
+@media (max-width: 1024px) and (min-width: 740px){
+    .body-container, .header-container {
+        width: 100%;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 739px) {
+    .body-container, .header-container {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .moblie-nav {
+        display: block;
+    }
+}
